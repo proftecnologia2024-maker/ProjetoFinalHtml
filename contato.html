@@ -1,0 +1,91 @@
+<html>
+<head>
+    <!-- Título da página e configuração de charset( conjunto de caracteres UTF-8.
+O UTF-8 abrange quase todos os caracteres e símbolos do mundo!)-->
+    <title>SENAC - contato</title>
+    <meta charset="UTF-8">
+</head>
+<body background="Imagens/fundo2.png">
+   <!-- Cabeçalho -->
+    <!-- Tabela para organizar o layout do cabeçalho -->
+     <!-- A tag <tr> é usada para definir uma linha em uma tabela. -->
+    <tr>
+        <!-- Logo e Links -->
+         <!-- A tag <table> é usada para criar uma tabela em um documento HTML. -->
+         <!-- O atributo border (1º usa o valor "1" para borda e depois coloca o valor "0" da bordaé usado para definir a largura da borda da tabela. -->
+        <!-- O atributo width é usado para definir a largura da tabela. -->
+        <!-- O atributo align é usado para definir o alinhamento da tabela. -->     
+         <table border="0" width="900" align="center">   
+            <!-- Logo -->
+            <!-- A tag <td> é usada para definir uma célula em uma tabela. -->
+            <!-- O atributo height(é pronunciado como /haɪt/, começando com um "h" aspirado, seguido de um som de "ai" como em "high,") é usado para definir a altura da célula. -->
+            <!-- O atributo width(é pronunciado como /wɪdθ/, onde o "w" é suave, seguido de um som curto de "i," e termina com o som "th.")
+             é usado para definir a largura da célula. -->
+            <td height="89" width="100"><img src="Imagens/logo_senac-final.png" width="100" height="100"></td>
+            <td align="right">
+                <!-- Links -->
+                <!-- A tag <a> é usada para definir um link em um documento HTML. -->
+                <!-- O atributo href é usado para especificar o destino do link. -->
+                <!-- O símbolo "|" é usado para separar os links visualmente. -->
+                <!-- O atributo href="" indica que o link não leva a lugar nenhum, ou seja, é um link vazio. -->
+                <!-- O atributo href="quem somos.html" indica que o link leva para a página Sobre.html. -->
+                <!-- O atributo href="Contato.html" indica que o link leva para a página Contato.html. -->
+                <a href="index.html">Home</a> |
+                <a href="quem-somos.html">Quem Somos</a> |
+                <a href="">Contato</a> 
+            
+                <tr>
+                    <!-- Título da página -->
+                        <!-- A tag <h2> é usada para definir um título de segundo nível em um documento HTML. -->
+                        <!-- A tag <p> é usada para definir um parágrafo em um documento HTML. -->
+                        <!-- O atributo colspan é usado para definir o número de colunas que a célula deve abranger. -->
+                        <!-- O atributo colspan é usado para definir o número de colunas que a célula deve abranger. -->
+                    <td colspan="2">
+                        <h2>Entre em Contato</h2>
+                        <P>
+                            O Serviço Nacional de Aprendizagem Comercial (SENAC) é uma instituição brasileira de ensino voltada para a formação 
+                            profissional e o desenvolvimento de competências no setor de comércio, serviços e turismo. 
+                        </P>
+
+                        <hr>
+                        <!-- A tag <hr> é usada para inserir uma linha horizontal em um documento HTML. -->
+                        <!-- A tag <form> é usada para criar um formulário em um documento HTML. -->
+                        <!-- O atributo method é usado para especificar o método de envio do formulário. -->
+                        <!-- O atributo action é usado para especificar o destino do formulário. -->
+                        <!-- O atributo name é usado para especificar o nome do formulário. -->
+                        <!-- O atributo id é usado para especificar o identificador do formulário. -->  
+                        <!-- O atributo for é usado para associar um rótulo a um elemento de formulário. -->
+                        <!-- O atributo type é usado para especificar o tipo de um elemento de formulário. -->
+                        <!-- O atributo id é usado para especificar o identificador de um elemento de formulário. -->
+                        <!-- O atributo name é usado para especificar o nome de um elemento de formulário. -->
+                        <form>
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" id="nome" name="nome"><br><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email"><br><br>
+                            <label for="mensagem">Mensagem:</label><br>
+                            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+                            <input type="submit" value="Enviar">
+                        </form>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <h4> Todos os direitos reservados SENAC</h4>
+
+                    </td>
+                </tr>
+
+            </td>
+        </table> 
+    </tr>
+
+</body>
+</html>
+
+
+
+
+
